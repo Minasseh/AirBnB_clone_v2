@@ -19,8 +19,7 @@ def do_pack():
 
         return file_name  # Return the filename for further use if needed
 
-    except Exception as e:
-        print(f"Error creating archive: {e}")
+    except:
         return None
 
 
